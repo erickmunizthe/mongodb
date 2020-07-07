@@ -1,0 +1,542 @@
+{
+  "appVersion": "5.0.0-beta.4",
+  "timestamp": 1593737801878,
+  "projects": [
+    {
+      "name": "Mongoose - Banco",
+      "services": [],
+      "environments": [],
+      "folders": [
+        {
+          "name": "Accounts",
+          "description": null,
+          "collapsed": false,
+          "inProgress": false,
+          "abortRun": false,
+          "rename": false,
+          "requests": [
+            {
+              "name": "depositar",
+              "url": "http://localhost:3000/depositar",
+              "method": "PATCH",
+              "bodyType": "json",
+              "bodyXml": "",
+              "bodyJson": "{\n    \"agencia\":33,\n    \"conta\":9110,\n    \"valor\":235\n}",
+              "bodyText": "",
+              "authType": null,
+              "response": {
+                "contentType": "text/html; charset=utf-8",
+                "headers": [
+                  {
+                    "name": "connection",
+                    "value": "keep-alive"
+                  },
+                  {
+                    "name": "content-length",
+                    "value": "4"
+                  },
+                  {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                  },
+                  {
+                    "name": "date",
+                    "value": "Fri, 03 Jul 2020 00:47:09 GMT"
+                  },
+                  {
+                    "name": "etag",
+                    "value": "W/\"4-I+JNkMaXW2M/IDKSJigeZC5SqwM\""
+                  },
+                  {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                  }
+                ],
+                "responseText": "1134",
+                "statusCode": 200,
+                "statusText": "OK",
+                "duration": 224,
+                "size": "4 bytes"
+              },
+              "inProgress": false,
+              "reqTabIndex": 0,
+              "resTabIndex": 0,
+              "description": null,
+              "reqPanelSize": null,
+              "resPanelSize": null,
+              "rename": false,
+              "responseView": "preview",
+              "headers": [],
+              "queryParams": [],
+              "bodyFormItems": [],
+              "assertions": [],
+              "auths": [],
+              "saved": true
+            },
+            {
+              "name": "sacar",
+              "url": "http://localhost:3000/sacar",
+              "method": "PATCH",
+              "bodyType": "json",
+              "bodyXml": "",
+              "bodyJson": "{\n    \"agencia\":33,\n    \"conta\":9110,\n    \"valor\":235\n}",
+              "bodyText": "",
+              "authType": null,
+              "response": {
+                "contentType": "text/html; charset=utf-8",
+                "headers": [
+                  {
+                    "name": "connection",
+                    "value": "keep-alive"
+                  },
+                  {
+                    "name": "content-length",
+                    "value": "2"
+                  },
+                  {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                  },
+                  {
+                    "name": "date",
+                    "value": "Fri, 03 Jul 2020 00:48:15 GMT"
+                  },
+                  {
+                    "name": "etag",
+                    "value": "W/\"2-FrBr2bc4g14tE0/o1ZbpqwCGqYU\""
+                  },
+                  {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                  }
+                ],
+                "responseText": "89",
+                "statusCode": 200,
+                "statusText": "OK",
+                "duration": 190,
+                "size": "2 bytes"
+              },
+              "inProgress": false,
+              "reqTabIndex": 0,
+              "resTabIndex": 0,
+              "description": null,
+              "reqPanelSize": null,
+              "resPanelSize": null,
+              "rename": false,
+              "responseView": "preview",
+              "headers": [],
+              "queryParams": [],
+              "bodyFormItems": [],
+              "assertions": [],
+              "auths": [],
+              "saved": true
+            },
+            {
+              "name": "transferir",
+              "url": "http://localhost:3000/transferir",
+              "method": "PATCH",
+              "bodyType": "json",
+              "bodyXml": "",
+              "bodyJson": "{\n    \"origem\":2214,\n    \"destino\":9119,\n    \"valor\":650\n}",
+              "bodyText": "",
+              "authType": null,
+              "response": {
+                "contentType": "text/html; charset=utf-8",
+                "headers": [
+                  {
+                    "name": "connection",
+                    "value": "keep-alive"
+                  },
+                  {
+                    "name": "content-length",
+                    "value": "1"
+                  },
+                  {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                  },
+                  {
+                    "name": "date",
+                    "value": "Fri, 03 Jul 2020 00:50:50 GMT"
+                  },
+                  {
+                    "name": "etag",
+                    "value": "W/\"1-tlifxqsNyCzxIJnRwtQKuZToQQw\""
+                  },
+                  {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                  }
+                ],
+                "responseText": "0",
+                "statusCode": 200,
+                "statusText": "OK",
+                "duration": 364,
+                "size": "1 bytes"
+              },
+              "inProgress": false,
+              "reqTabIndex": 0,
+              "resTabIndex": 0,
+              "description": null,
+              "reqPanelSize": null,
+              "resPanelSize": null,
+              "rename": false,
+              "responseView": "preview",
+              "headers": [],
+              "queryParams": [],
+              "bodyFormItems": [],
+              "assertions": [],
+              "auths": [],
+              "saved": true
+            },
+            {
+              "name": "media",
+              "url": "http://localhost:3000/media/99",
+              "method": "GET",
+              "bodyType": "json",
+              "bodyXml": "",
+              "bodyJson": "",
+              "bodyText": "",
+              "authType": null,
+              "response": {
+                "contentType": "text/html; charset=utf-8",
+                "headers": [
+                  {
+                    "name": "content-length",
+                    "value": "4"
+                  },
+                  {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                  },
+                  {
+                    "name": "date",
+                    "value": "Fri, 03 Jul 2020 00:53:45 GMT"
+                  },
+                  {
+                    "name": "etag",
+                    "value": "W/\"4-fhxibU4xXRMhU1eMfDbHLiL2QO8\""
+                  },
+                  {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                  }
+                ],
+                "responseText": "4684",
+                "statusCode": 200,
+                "statusText": "OK",
+                "duration": 234,
+                "size": "4 bytes"
+              },
+              "inProgress": false,
+              "reqTabIndex": 0,
+              "resTabIndex": 0,
+              "description": null,
+              "reqPanelSize": null,
+              "resPanelSize": null,
+              "rename": false,
+              "responseView": "preview",
+              "headers": [],
+              "queryParams": [],
+              "bodyFormItems": [],
+              "assertions": [],
+              "auths": [],
+              "saved": true
+            },
+            {
+              "name": "ricos",
+              "url": "http://localhost:3000/ricos/5",
+              "method": "GET",
+              "bodyType": "json",
+              "bodyXml": "",
+              "bodyJson": "",
+              "bodyText": "",
+              "authType": null,
+              "response": {
+                "contentType": "text/html; charset=utf-8",
+                "headers": [
+                  {
+                    "name": "connection",
+                    "value": "keep-alive"
+                  },
+                  {
+                    "name": "content-length",
+                    "value": "372"
+                  },
+                  {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                  },
+                  {
+                    "name": "date",
+                    "value": "Fri, 03 Jul 2020 00:52:11 GMT"
+                  },
+                  {
+                    "name": "etag",
+                    "value": "W/\"174-bMPIIcPHglXRV1CJmucED6UAb5w\""
+                  },
+                  {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                  }
+                ],
+                "responseText": "[{\"agencia\":10,\"conta\":1027,\"name\":\"Giovanna Silva Dias\",\"balance\":9852},{\"agencia\":47,\"conta\":2221,\"name\":\"Guilherme Geraldo Aguiar\",\"balance\":3265},{\"agencia\":25,\"conta\":3003,\"name\":\"Guilherme Zanin Freitas\",\"balance\":3265},{\"agencia\":33,\"conta\":9123,\"name\":\"Glaucio de Souza\",\"balance\":2354},{\"agencia\":25,\"conta\":3004,\"name\":\"Guilherme Ferreira Silva\",\"balance\":2154}]",
+                "statusCode": 200,
+                "statusText": "OK",
+                "duration": 120,
+                "size": "372 bytes"
+              },
+              "inProgress": false,
+              "reqTabIndex": 0,
+              "resTabIndex": 0,
+              "description": null,
+              "reqPanelSize": null,
+              "resPanelSize": null,
+              "rename": false,
+              "responseView": "preview",
+              "saved": true,
+              "headers": [],
+              "queryParams": [],
+              "bodyFormItems": [],
+              "assertions": [],
+              "auths": []
+            },
+            {
+              "name": "pobres",
+              "url": "http://localhost:3000/pobres/1",
+              "method": "GET",
+              "bodyType": "json",
+              "bodyXml": "",
+              "bodyJson": "",
+              "bodyText": "",
+              "authType": null,
+              "response": {
+                "contentType": "text/html; charset=utf-8",
+                "headers": [
+                  {
+                    "name": "connection",
+                    "value": "keep-alive"
+                  },
+                  {
+                    "name": "content-length",
+                    "value": "41"
+                  },
+                  {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                  },
+                  {
+                    "name": "date",
+                    "value": "Fri, 03 Jul 2020 00:51:46 GMT"
+                  },
+                  {
+                    "name": "etag",
+                    "value": "W/\"29-1wnTtYwQ/QRhMum3z7D9ZBZ1UFU\""
+                  },
+                  {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                  }
+                ],
+                "responseText": "[{\"agencia\":47,\"conta\":2214,\"balance\":0}]",
+                "statusCode": 200,
+                "statusText": "OK",
+                "duration": 295,
+                "size": "41 bytes"
+              },
+              "inProgress": false,
+              "reqTabIndex": 0,
+              "resTabIndex": 0,
+              "description": null,
+              "reqPanelSize": null,
+              "resPanelSize": null,
+              "rename": false,
+              "responseView": "preview",
+              "saved": true,
+              "headers": [],
+              "queryParams": [],
+              "bodyFormItems": [],
+              "assertions": [],
+              "auths": []
+            },
+            {
+              "name": "private",
+              "url": "http://localhost:3000/private",
+              "method": "PUT",
+              "bodyType": "json",
+              "bodyXml": "",
+              "bodyJson": "",
+              "bodyText": "",
+              "authType": null,
+              "response": {
+                "contentType": "text/html; charset=utf-8",
+                "headers": [
+                  {
+                    "name": "connection",
+                    "value": "keep-alive"
+                  },
+                  {
+                    "name": "content-length",
+                    "value": "427"
+                  },
+                  {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                  },
+                  {
+                    "name": "date",
+                    "value": "Fri, 03 Jul 2020 00:52:57 GMT"
+                  },
+                  {
+                    "name": "etag",
+                    "value": "W/\"1ab-atkY/HSPdfSnYrTbAwknd9/+7Yk\""
+                  },
+                  {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                  }
+                ],
+                "responseText": "[{\"_id\":\"5efe7ef01ad6032a1829d451\",\"agencia\":99,\"conta\":1027,\"name\":\"Giovanna Silva Dias\",\"balance\":9852},{\"_id\":\"5efe7ef01ad6032a1829d487\",\"agencia\":99,\"conta\":2221,\"name\":\"Guilherme Geraldo Aguiar\",\"balance\":3265},{\"_id\":\"5efe7ef01ad6032a1829d457\",\"agencia\":99,\"conta\":3003,\"name\":\"Guilherme Zanin Freitas\",\"balance\":3265},{\"_id\":\"5efe7ef01ad6032a1829d4a7\",\"agencia\":99,\"conta\":9123,\"name\":\"Glaucio de Souza\",\"balance\":2354}]",
+                "statusCode": 200,
+                "statusText": "OK",
+                "duration": 842,
+                "size": "427 bytes"
+              },
+              "inProgress": false,
+              "reqTabIndex": 0,
+              "resTabIndex": 0,
+              "description": null,
+              "reqPanelSize": null,
+              "resPanelSize": null,
+              "rename": false,
+              "responseView": "preview",
+              "saved": true,
+              "headers": [],
+              "queryParams": [],
+              "bodyFormItems": [],
+              "assertions": [],
+              "auths": []
+            },
+            {
+              "name": "delete",
+              "url": "http://localhost:3000/delete",
+              "method": "DELETE",
+              "bodyType": "json",
+              "bodyXml": "",
+              "bodyJson": "{\"agencia\":33,\"conta\":9101}",
+              "bodyText": "",
+              "authType": null,
+              "response": {
+                "contentType": "text/html; charset=utf-8",
+                "headers": [
+                  {
+                    "name": "connection",
+                    "value": "keep-alive"
+                  },
+                  {
+                    "name": "content-length",
+                    "value": "2"
+                  },
+                  {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                  },
+                  {
+                    "name": "date",
+                    "value": "Fri, 03 Jul 2020 00:49:31 GMT"
+                  },
+                  {
+                    "name": "etag",
+                    "value": "W/\"2-dxmhx4KhupHAMaaCoKL4ZYIJrb8\""
+                  },
+                  {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                  }
+                ],
+                "responseText": "29",
+                "statusCode": 200,
+                "statusText": "OK",
+                "duration": 278,
+                "size": "2 bytes"
+              },
+              "inProgress": false,
+              "reqTabIndex": 0,
+              "resTabIndex": 0,
+              "description": null,
+              "reqPanelSize": null,
+              "resPanelSize": null,
+              "rename": false,
+              "responseView": "preview",
+              "saved": true,
+              "headers": [],
+              "queryParams": [],
+              "bodyFormItems": [],
+              "assertions": [],
+              "auths": []
+            },
+            {
+              "name": "saldo",
+              "url": "http://localhost:3000/saldo/47/2213",
+              "method": "GET",
+              "bodyType": "json",
+              "bodyXml": "",
+              "bodyJson": "",
+              "bodyText": "",
+              "authType": null,
+              "response": {
+                "contentType": "text/html; charset=utf-8",
+                "headers": [
+                  {
+                    "name": "connection",
+                    "value": "keep-alive"
+                  },
+                  {
+                    "name": "content-length",
+                    "value": "3"
+                  },
+                  {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                  },
+                  {
+                    "name": "date",
+                    "value": "Fri, 03 Jul 2020 00:48:48 GMT"
+                  },
+                  {
+                    "name": "etag",
+                    "value": "W/\"3-OvCvIXGK11cit/fcJCjn8/nBBDI\""
+                  },
+                  {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                  }
+                ],
+                "responseText": "452",
+                "statusCode": 200,
+                "statusText": "OK",
+                "duration": 167,
+                "size": "3 bytes"
+              },
+              "inProgress": false,
+              "reqTabIndex": 0,
+              "resTabIndex": 0,
+              "description": null,
+              "reqPanelSize": null,
+              "resPanelSize": null,
+              "rename": false,
+              "responseView": "preview",
+              "saved": true,
+              "headers": [],
+              "queryParams": [],
+              "bodyFormItems": [],
+              "assertions": [],
+              "auths": []
+            }
+          ]
+        }
+      ],
+      "requests": []
+    }
+  ]
+}
